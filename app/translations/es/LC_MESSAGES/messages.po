@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-01-12 00:13+0200\n"
+"POT-Creation-Date: 2020-01-12 19:22+0200\n"
 "PO-Revision-Date: 2017-09-29 23:25-0700\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: es\n"
@@ -166,6 +166,14 @@ msgstr ""
 msgid "Send Message"
 msgstr ""
 
+#: app/main/routes.py:185
+msgid "An export task is currently in progress"
+msgstr ""
+
+#: app/main/routes.py:187
+msgid "Exporting posts..."
+msgstr ""
+
 #: app/templates/_post.html:16
 #, python-format
 msgid "%(username)s said %(when)s"
@@ -195,7 +203,7 @@ msgstr "Perfil"
 msgid "Logout"
 msgstr "Salir"
 
-#: app/templates/base.html:83
+#: app/templates/base.html:95
 msgid "Error: Could not contact server."
 msgstr ""
 
@@ -235,22 +243,26 @@ msgid "Edit your profile"
 msgstr "Editar tu perfil"
 
 #: app/templates/user.html:17
+msgid "Export your posts"
+msgstr ""
+
+#: app/templates/user.html:20
 msgid "Follow"
 msgstr "Seguir"
 
-#: app/templates/user.html:19
+#: app/templates/user.html:22
 msgid "Unfollow"
 msgstr "Dejar de seguir"
 
-#: app/templates/user.html:22
+#: app/templates/user.html:25
 msgid "Send private message"
 msgstr ""
 
-#: app/templates/user.html:34
+#: app/templates/user.html:37
 msgid "Newer posts"
 msgstr "Artículos siguientes"
 
-#: app/templates/user.html:39
+#: app/templates/user.html:42
 msgid "Older posts"
 msgstr "Artículos previos"
 
